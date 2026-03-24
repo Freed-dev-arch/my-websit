@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Golden Spoon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">The Golden Spoon</a>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservations">Book a Table</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience Authentic Coastal Flavors</h1>
+            <p>Freshly sourced ingredients from the Cape Coast market to your plate.</p>
+            <div class="cta-buttons">
+                <a href="#menu" class="btn-primary">View Menu</a>
+                <a href="#reservations" class="btn-secondary">Make a Reservation</a>
+            </div>
+        </div>
+    </section>
+    <div class="menu-category">
+        <h3>Appetizers & Starters</h3>
+        <div class="menu-grid">
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Spicy Kelewele</h4>
+                    <span class="price">₵25.00</span>
+                </div>
+                <p>Fried plantain cubes seasoned with ginger, onion, and chili pepper.</p>
+            </article>
+    
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Pepper Soup (Goat)</h4>
+                    <span class="price">₵35.00</span>
+                </div>
+                <p>A spicy, aromatic broth made with local herbs and tender goat meat.</p>
+            </article>
+        </div>
+    </div>
+    <div class="menu-category">
+        <h3>Main Courses</h3>
+        <div class="menu-grid">
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Assorted Jollof Rice</h4>
+                    <span class="price">₵65.00</span>
+                </div>
+                <p>Richly seasoned rice served with beef, chicken, and a side of coleslaw.</p>
+            </article>
+    
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Grilled Tilapia & Banku</h4>
+                    <span class="price">₵85.00</span>
+                </div>
+                <p>Freshly grilled tilapia seasoned with ginger and garlic, served with hot shito and banku.</p>
+            </article>
+    
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Waakye Special</h4>
+                    <span class="price">₵55.00</span>
+                </div>
+                <p>Rice and beans cooked with dried sorghum leaves, served with wele, spaghetti, and egg.</p>
+            </article>
+    
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Fufu with Light Soup</h4>
+                    <span class="price">₵75.00</span>
+                </div>
+                <p>Pounded cassava and plantain served in a rich tomato-based soup with fresh fish or goat meat.</p>
+            </article>
+        </div>
+    </div>
+    <div class="menu-category">
+        <h3>Drinks & Desserts</h3>
+        <div class="menu-grid">
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Chilled Sobolo</h4>
+                    <span class="price">₵15.00</span>
+                </div>
+                <p>Refreshing hibiscus drink infused with ginger and pineapple.</p>
+            </article>
+    
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Lamugin</h4>
+                    <span class="price">₵15.00</span>
+                </div>
+                <p>Traditional ginger and rice drink, served ice cold.</p>
+            </article>
+    
+            <article class="menu-item">
+                <div class="item-header">
+                    <h4>Sweet Fried Bofrot</h4>
+                    <span class="price">₵20.00</span>
+                </div>
+                <p>Three pieces of golden-brown Ghanaian doughnuts dusted with sugar.</p>
+            </article>
+        </div>
+    </div><section id="reservations">
+        <h2>Book a Table</h2>
+        <form action="#" method="POST" class="reservation-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="res_date" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guest_count" min="1" max="10" value="2">
+                </div>
+            </div>
+            <button type="submit" class="btn-submit">Confirm Booking</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h3>Find Us</h3>
+                <address>
+                    Apewosika,University of Cape Coast<br>
+                    Opposite the Pentecost Church Entrance
+                </address>
+            </div>
+            <div class="footer-hours">
+                <h3>Opening Hours</h3>
+                <p>Mon - Fri: 10:00 AM - 10:00 PM</p>
+                <p>Sat - Sun: 12:00 PM - 11:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 The Golden Spoon. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
